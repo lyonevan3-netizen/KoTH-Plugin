@@ -1,6 +1,7 @@
 settings:
   default-capture-seconds: 90
   default-event-seconds: 1800
+  hourly-mode-restarts-at-next-hour: true
   default-cooldown-seconds: 300
   check-interval-ticks: 20
   reset-on-leave: true
@@ -9,7 +10,7 @@ settings:
   announce-start: true
   announce-winner: true
   bossbar-enabled: true
-  hologram-refresh-ticks: 20
+  hologram-refresh-ticks: 20 # Deprecated: FancyHolograms handles display updates
   timezone: SYSTEM
 messages:
   prefix: '&6&lKoTH &8» &7'

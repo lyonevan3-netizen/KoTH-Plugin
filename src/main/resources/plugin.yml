@@ -1,9 +1,9 @@
 name: KoTH
-version: 1.0.0
+version: 1.2.0
 main: dev.koth.KoTHPlugin
 api-version: '1.21'
 author: OpenAI
-softdepend: [PlaceholderAPI, Vault]
+softdepend: [PlaceholderAPI, Vault, FancyHolograms, TAB]
 commands:
   koth:
     description: KoTH management
