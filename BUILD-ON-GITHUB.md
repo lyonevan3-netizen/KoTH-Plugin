@@ -7,7 +7,7 @@ This source package includes a GitHub Actions workflow that builds the plugin wi
 2. Upload the contents of this folder to the repository (the `.github` folder must be included).
 3. Open the repository's **Actions** tab and select **Build KoTH plugin**.
 4. Click **Run workflow**. Wait for the run to finish.
-5. Open the completed run and download the **KoTH-Paper-1.21.4** artifact.
+5. Open the completed run and download the **KoTH-1.5.1** artifact.
 6. Extract the artifact. Put the `.jar` in your server's `plugins` folder and restart the server.
 
 The server only needs the resulting JAR. GitHub Actions/Maven are build-time tools only.
