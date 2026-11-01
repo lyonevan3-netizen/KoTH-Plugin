@@ -1,0 +1,24 @@
+settings:
+  default-capture-seconds: 90
+  default-event-seconds: 1800
+  default-cooldown-seconds: 300
+  check-interval-ticks: 20
+  reset-on-leave: true
+  one-capturer-only: true
+  announce-capturer: true
+  announce-start: true
+  announce-winner: true
+  bossbar-enabled: true
+  hologram-refresh-ticks: 20
+  timezone: SYSTEM
+messages:
+  prefix: '&6&lKoTH &8» &7'
+  wand-given: '&aYou received the KoTH selection axe. Left and right click two corners.'
+  pos1: '&aPosition 1 selected: &f%x%, %y%, %z%'
+  pos2: '&aPosition 2 selected: &f%x%, %y%, %z%'
+  defined: '&aArena &f%arena% &ahas been created.'
+  capture-start: '&e%player% &7is capturing &6%arena%&7!'
+  capture-win: '&6%player% &ahas captured &e%arena%&a!'
+  capture-left: '&c%player% left the capture area. Their progress was reset.'
+  event-start: '&aKoTH &e%arena% &ahas started!'
+  event-stop: '&cKoTH &e%arena% &cwas stopped.'

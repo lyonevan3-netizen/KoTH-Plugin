@@ -1,0 +1,6 @@
+Project: KoTH
+Target: Paper 1.21.4
+Java: 21
+Source version: 1.0.0 (build workflow package v1.0.3)
+Build: GitHub Actions workflow in .github/workflows/build.yml
+Status: Source package prepared; not compiled or runtime-tested in this environment.
